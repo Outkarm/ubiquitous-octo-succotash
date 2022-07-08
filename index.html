@@ -4,9 +4,92 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
   </head>
   <body>
-    <h1>How are you</h1>
+    <h1 id="title">SURVEY</h1>
+    <p id="description">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nesciunt
+      provident error esse cumque reiciendis tempore repudiandae exercitationem
+      ratione ex labore assumenda consectetur sapiente, voluptatibus repellendus
+      aut, illum minus perferendis hic dolorem nisi vero ea reprehenderit?
+      Reiciendis nobis sint exercitationem, dicta suscipit pariatur culpa
+      voluptate consequuntur! Illum nam sint pariatur?
+    </p>
+    <form action="#" id="form">
+      <div class="field-div">
+        <label for="name" id="name-label">Name</label>
+        <input
+          type="text"
+          id="name"
+          required
+          name="name"
+          placeholder="John Doe"
+        />
+      </div>
+      <div class="field-div">
+        <label for="email" id="email-label">E-mail</label>
+        <input
+          type="email"
+          id="email"
+          required
+          name="email"
+          placeholder="example@example.com"
+        />
+      </div>
+      <div class="field-div">
+        <label for="number" id="number-label">Number</label>
+        <input
+          type="number"
+          id="number"
+          required
+          name="number"
+          min="0"
+          max="9999999999"
+          placeholder="99"
+        />
+      </div>
+
+      <div class="select-box">
+        <span>Select Major Language: </span>
+        <select name="languages" id="dropdown">
+          <option value="English">English</option>
+          <option value="French">French</option>
+          <option value="Arabic">Arabic</option>
+        </select>
+      </div>
+
+      <div class="radio-div">
+        <span>male </span
+        ><input type="radio" name="gender" value="male" required />
+        <span>female </span
+        ><input type="radio" name="gender" value="female" required />
+        <span>bisexual </span
+        ><input type="radio" name="gender" value="bisexual" required />
+      </div>
+
+      <div class="checkbox">
+        <span>Mr</span
+        ><input type="checkbox" name="title" value="Mr" required />
+        <span>Mrs</span
+        ><input type="checkbox" name="title" value="Mrs" required />
+        <span>Sir</span
+        ><input type="checkbox" name="title" value="Sir" required />
+      </div>
+
+      <div class="text-area">
+        <textarea
+          name="suggestions"
+          id="text-area"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+
+      <div class="button">
+        <button type="submit" id="submit">Submit</button>
+      </div>
+    </form>
   </body>
 </html>

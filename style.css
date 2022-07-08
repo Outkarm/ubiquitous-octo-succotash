@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./images/pexels-brady-knoll-5409751.jpg");
+  color: aliceblue;
+}
+#title {
+  text-align: center;
+  vertical-align: center;
+  margin: 20px auto;
+  padding: 10px auto;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 50px;
+  font-weight: bold;
+  background-image: linear-gradient(
+    to bottom,
+    black 0%,
+    black 45%,
+    yellow 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#description {
+  text-align: center;
+  vertical-align: center;
+  margin: 15px 200px;
+  padding: 10px;
+  line-height: 30px;
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.field-div {
+  margin: 15px auto;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+.select-box {
+  text-align: center;
+  margin: 15px auto;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 15px;
+}
+
+.radio-div {
+  text-align: center;
+  margin: 15px auto;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 15px;
+}
+
+.checkbox {
+  text-align: center;
+  margin: 15px auto;
+  text-align: center;
+  font-size: 1.1rem;
+  padding: 15px;
+}
+
+.checkbox input {
+  margin-right: 40px;
+}
+
+.text-area {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  margin: 60px;
+}
+
+.button button {
+  width: 100px;
+  height: 50px;
+}
